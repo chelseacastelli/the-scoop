@@ -38,7 +38,6 @@ class Score extends Component {
           downvotedBy: item.downvotedBy
         });
       });
-
   }
 
   calculateScore(item) {

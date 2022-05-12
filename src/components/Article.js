@@ -116,8 +116,9 @@ class Article extends Component {
   }
 
   renderComments() {
+    const comments = this.props.article.comments;
     if (this.props.isArticleView) {
-      const comments = this.props.article.comments;
+      // const comments = this.props.article.comments;
       if (comments.length === 1) {
         return <span className="comments">1 Comment</span>
       } else {
